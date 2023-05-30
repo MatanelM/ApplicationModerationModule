@@ -11,7 +11,7 @@ public class App extends AppParent {
 
     @Override
     protected String getOpenaiApiKey() {
-        return BuildConfig.OPENAI_API_KEY;
+        return "";
     }
 
     @Override
