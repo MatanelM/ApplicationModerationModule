@@ -1,7 +1,0 @@
-site_name: Moderation 
-nav:
-  - Welcome: index.md
-  - Setup: setup.md
-  - Get started: get_started.md
-  - Customization: customization.md
-theme: readthedocs
