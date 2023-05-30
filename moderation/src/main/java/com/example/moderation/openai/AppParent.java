@@ -16,14 +16,9 @@ public abstract class AppParent extends Application {
         try{
             String api_key = getOpenaiApiKey();
             Moderator.get(new Activity())
-                    .setOpenaiApiKey(api_key)
-                    .setFlaggingBar(0.4)
-                    .addWeight(HarassmentType.SEXUAL, 1.2)
-                    .addWeight(HarassmentType.SEXUAL_MINORS, 1.4);
+                    .setOpenaiApiKey(api_key);
         }catch(Exception e){
             e.printStackTrace();
         }
-
-
     }
 }
